@@ -24,9 +24,9 @@ def callback():
     user = decoded['originalDetectIntentRequest']['payload']['data']['replyToken']
     #userText = decoded["events"][0]['message']['text']
     #sendText(user,userText)
-    if (userText == 'รู้มากนักนะ') :
-        sendText(user,'อยากเกิดก็เปิดมา')
-    elif (userText == 'ได้นะรอเลย') :
+    if (userText == 'กินข้าวยัง') :
+        sendText(user,'กินแล้ว')
+    elif (userText == 'กินตีนไมครับ') :
         sendText(user,'มาเหอะยืนรอแล้ว')
     else :
         sendText(user,'ทักมามีไรวะ')
